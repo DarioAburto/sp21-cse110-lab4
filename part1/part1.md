@@ -1,4 +1,4 @@
-part-1a
+## part-1a
 
 1. line 9 will return 20 
 2. line 13 will also return 20 since "var" has no scope and the declaration is processed at the start of the function
@@ -7,7 +7,7 @@ part-1a
 5. it returns an error because the variable was declared with the const keyword which means that it can not be reassigned, but we tried to reassign the value at line 5 ( result = num1 + num2)
 6. it returns an error because the variable was declared with the const keyword which means that it can not be reassigned, but we tried to reassign the value at line 5 ( result = num1 + num2)
 
-part-1b
+## part-1b
 
 1. line 12 will return 3 since the variable i was declared with the keyword "var" and since the loop runs 3 times  
 2. line 13 will return 150 since during the last itertion of the for loop this is the value that gets assigned to discountedPrice. It was also declared with the keyword "var" so it can be used outside the for loop
